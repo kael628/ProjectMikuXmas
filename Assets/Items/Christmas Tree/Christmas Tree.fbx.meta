@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 169a59eee1eedf94bbc5052aa7a42a4b
+guid: d630df9199c21bc4caa470ab857ad526
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Body
     100002: //RootNode
     400000: Body
     400002: //RootNode
-    2100000: lights
-    2100002: lights.004
-    2100004: lights.005
-    2100006: lights.006
-    2100008: lights.007
-    2100010: light
-    2100012: star
+    2100000: combined_material_9879181462
     2300000: Body
     3300000: Body
     4300000: Body
@@ -21,38 +15,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: light
-    second: {fileID: 2100000, guid: 0f551ae26c5afc448b935d06eafb710b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lights
-    second: {fileID: 2100000, guid: 65a2facf1554f6949bc9341de3797a0f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lights.004
-    second: {fileID: 2100000, guid: d257316c7511b9c4895dc8760f93431e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lights.005
-    second: {fileID: 2100000, guid: 366ad7bed7ad8fc4097ee1f04c30cd4a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lights.006
-    second: {fileID: 2100000, guid: fba63dd237ab2f54487aa19d20918227, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lights.007
-    second: {fileID: 2100000, guid: 38d73dc32b4106344b5a19d9917a0fe6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: star
-    second: {fileID: 2100000, guid: b8611e34472fe004e9034bbd7fcdbc0c, type: 2}
+      name: combined_material_9879181462
+    second: {fileID: 2100000, guid: a482d27572b0b1e4d8adaadedb788a54, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -71,7 +35,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -86,7 +49,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -104,16 +66,11 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -128,6 +85,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: material_atlas_64916_1
+  m_Name: material_atlas_10143_1
   m_Shader: {fileID: 4800000, guid: 3ea1f79935b9bd049a40bf60dcf574ae, type: 3}
   m_ShaderKeywords: LOD_FADE_CROSSFADE
   m_LightmapFlags: 4
@@ -160,7 +160,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b5d7221b5acef0d4fa98c0c96a5cfb91, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7b49d50dbc1a86f438b257053a223082, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -335,7 +335,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Clip: 0.5
     - _ContinuousDissolve: 0
-    - _Cull: 0
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DebugCameraData: 0
     - _DebugDisplayDebug: 0
@@ -422,8 +422,6 @@ Material:
     - _FlipbookTotalFrames: 1
     - _FlipbookUV: 0
     - _ForceOpaque: 0
-    - _FresnelIntensity: 1
-    - _FresnelSize: 0.6153846
     - _GIEmissionMultiplier: 1
     - _GITDEMaxEmissionMultiplier: 0
     - _GITDEMaxEmissionMultiplier1: 0
@@ -587,7 +585,6 @@ Material:
     - _SpecularSmoothness1: 0.75
     - _SpecularType: 1
     - _SpecularType1: 1
-    - _Speed: 1
     - _SrcBlend: 1
     - _StencilCompareFunction: 8
     - _StencilFailOp: 0
@@ -611,7 +608,6 @@ Material:
     - _ZBias: 0
     - _ZTest: 4
     - _ZWrite: 1
-    - _push: 0
     - footer_discord: 0
     - footer_github: 0
     - footer_patreon: 0
@@ -620,6 +616,7 @@ Material:
     - m_ParallaxMap: 0
     - m_SpecialEffects: 0
     - m_Special_Effects: 0
+    - m_emissionOptions: 1
     - m_end_Alpha: 0
     - m_end_Anisotropic: 0
     - m_end_Anisotropic1: 0
@@ -683,8 +680,8 @@ Material:
     - m_mainOptions: 1
     - m_outlineOptions: 0
     - m_reflectionOptions: 0
-    - m_renderingOptions: 1
-    - m_start_Alpha: 1
+    - m_renderingOptions: 0
+    - m_start_Alpha: 0
     - m_start_Anisotropic: 0
     - m_start_Anisotropic1: 0
     - m_start_CenterOutEmission: 0
@@ -774,7 +771,6 @@ Material:
     - _EmissiveScroll_Direction1: {r: 0, g: -10, b: 0, a: 0}
     - _FlipbookColor: {r: 1, g: 1, b: 1, a: 1}
     - _FlipbookScaleOffset: {r: 1, g: 1, b: 0, a: 0}
-    - _FresnelColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
     - _GlitterMinMaxBrightness: {r: 0.8, g: 1, b: 0, a: 1}
     - _GlitterMinMaxSaturation: {r: 0.8, g: 1, b: 0, a: 1}
