@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: material_atlas_58216_1
-  m_Shader: {fileID: 4800000, guid: 3ea1f79935b9bd049a40bf60dcf574ae, type: 3}
-  m_ShaderKeywords: LOD_FADE_CROSSFADE
+  m_Name: Random
+  m_Shader: {fileID: 4800000, guid: 45429b755005c8245b20248fbc150a0a, type: 3}
+  m_ShaderKeywords: LOD_FADE_CROSSFADE _METALLICGLOSSMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BackFaceTexture:
-        m_Texture: {fileID: 2800000, guid: ed4bcca37b91c2341bbb3d1eaa534805, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BlueTexture:
@@ -160,7 +160,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: ed4bcca37b91c2341bbb3d1eaa534805, type: 3}
+        m_Texture: {fileID: 2800000, guid: a6d6984545cde4a4f9317b17d6dca225, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -312,11 +312,11 @@ Material:
     - _AttenuationMultiplier: 0
     - _BackFaceDetailIntensity: 1
     - _BackFaceEmissionStrength: 0
-    - _BackFaceEnabled: 1
+    - _BackFaceEnabled: 0
     - _BackFaceHueShift: 0
     - _BackFaceTextureUV: 0
     - _BumpMapUV: 0
-    - _BumpScale: 1
+    - _BumpScale: 0
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
     - _ClearCoat: 1
@@ -327,7 +327,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Clip: 0.5
     - _ContinuousDissolve: 0
-    - _Cull: 0
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DebugCameraData: 0
     - _DebugDisplayDebug: 0
@@ -394,7 +394,7 @@ Material:
     - _EnableGITDEmission: 0
     - _EnableGITDEmission1: 0
     - _EnableLighting: 1
-    - _EnableMetallic: 0
+    - _EnableMetallic: 1
     - _EnableMirrorOptions: 0
     - _EnableMirrorTexture: 0
     - _EnableRandom: 0
@@ -438,7 +438,7 @@ Material:
     - _GlitterSpeed: 10
     - _GlitterUseSurfaceColor: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _IgnoreFog: 0
     - _InvertSmoothness: 0
@@ -453,7 +453,7 @@ Material:
     - _LightingStandardSmoothness: 0
     - _LightingType: 1
     - _MainAlphaToCoverage: 1
-    - _MainEmissionStrength: 0
+    - _MainEmissionStrength: 0.85
     - _MainHueShift: 0
     - _MainMinAlpha: 0
     - _MainMipScale: 0.25
@@ -478,7 +478,7 @@ Material:
     - _MatcapMultiply: 0
     - _MatcapNormal: 1
     - _MatcapReplace: 1
-    - _Metallic: 0
+    - _Metallic: 0.487
     - _Mirror: 0
     - _Mode: 0
     - _ModelAngleMax: 90
@@ -528,7 +528,7 @@ Material:
     - _SSSScale: 1
     - _SSSStrength: 1
     - _SampleWorld: 0
-    - _Saturation: 0
+    - _Saturation: 1
     - _ScrollingEmission: 0
     - _ScrollingEmission1: 0
     - _ShadowMix: 0
@@ -538,7 +538,7 @@ Material:
     - _ShadowOffset1: 0
     - _ShadowOffset2: 0
     - _ShadowStrength: 0.2
-    - _Smoothness: 0
+    - _Smoothness: 0.698
     - _SmoothnessFrom: 1
     - _SmoothnessFrom1: 1
     - _SmoothnessTextureChannel: 0
@@ -591,7 +591,7 @@ Material:
     - footer_twitter: 0
     - footer_youtube: 0
     - m_ParallaxMap: 0
-    - m_Special_Effects: 0
+    - m_Special_Effects: 1
     - m_end_Alpha: 0
     - m_end_Anisotropic: 0
     - m_end_Anisotropic1: 0
@@ -651,7 +651,7 @@ Material:
     - m_lightingOptions: 0
     - m_mainOptions: 1
     - m_reflectionOptions: 0
-    - m_renderingOptions: 1
+    - m_renderingOptions: 0
     - m_start_Alpha: 0
     - m_start_Anisotropic: 0
     - m_start_Anisotropic1: 0
@@ -660,7 +660,7 @@ Material:
     - m_start_DetailOptions: 0
     - m_start_Lighting: 0
     - m_start_Matcap2: 0
-    - m_start_Metallic: 0
+    - m_start_Metallic: 1
     - m_start_RGBMask: 0
     - m_start_ShadowMix: 0
     - m_start_SpecularToon: 0
@@ -671,7 +671,7 @@ Material:
     - m_start_TextInstanceTime: 0
     - m_start_TextPosition: 0
     - m_start_angularFade: 0
-    - m_start_backFace: 1
+    - m_start_backFace: 0
     - m_start_bakedLighting: 0
     - m_start_blinkingEmissionOptions: 0
     - m_start_blinkingEmissionOptions1: 0
@@ -718,7 +718,7 @@ Material:
     - _BackFacePanning: {r: 0, g: 0, b: 0, a: 0}
     - _BlueColor: {r: 1, g: 1, b: 1, a: 1}
     - _ClearCoatTint: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.9020466, b: 0.5647059, a: 1}
     - _DetailTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _DetailTint: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveDetailPan: {r: 0, g: 0, b: 0, a: 0}
@@ -730,7 +730,7 @@ Material:
     - _DissolveToPanning: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _DistortionSpeed1: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMapPan1: {r: 0, g: 0, b: 0, a: 0}
