@@ -311,7 +311,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Clip: 0.5
     - _ContinuousDissolve: 0
-    - _Cull: 1
+    - _Cull: 0
     - _DebugCameraData: 0
     - _DebugDisplayDebug: 0
     - _DebugLightingData: 0
