@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RainDemo
+  m_Name: RainDemo 1
   m_Shader: {fileID: 4800000, guid: b62bfb0345b9c6445a676ebc5459c483, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
@@ -127,7 +127,7 @@ Material:
     - _StreakLength1: 2
     - _StreakTiling: 1
     - _StreakTiling1: 1
-    - _SurfaceLevelTweak: 0
+    - _SurfaceLevelTweak: 0.57
     - _SurfaceSmoothness: 1
     - _SurfaceSmoothnessTweak: 0
     - _UVSec: 0
