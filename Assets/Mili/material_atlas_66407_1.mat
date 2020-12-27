@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BackFaceTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7ca000696b2140a45b514d49479ab40e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BlueTexture:
@@ -312,7 +312,7 @@ Material:
     - _AttenuationMultiplier: 0
     - _BackFaceDetailIntensity: 1
     - _BackFaceEmissionStrength: 0
-    - _BackFaceEnabled: 0
+    - _BackFaceEnabled: 1
     - _BackFaceHueShift: 0
     - _BackFaceTextureUV: 0
     - _BumpMapUV: 0
@@ -651,7 +651,7 @@ Material:
     - m_lightingOptions: 0
     - m_mainOptions: 1
     - m_reflectionOptions: 0
-    - m_renderingOptions: 0
+    - m_renderingOptions: 1
     - m_start_Alpha: 0
     - m_start_Anisotropic: 0
     - m_start_Anisotropic1: 0
@@ -671,7 +671,7 @@ Material:
     - m_start_TextInstanceTime: 0
     - m_start_TextPosition: 0
     - m_start_angularFade: 0
-    - m_start_backFace: 0
+    - m_start_backFace: 1
     - m_start_bakedLighting: 0
     - m_start_blinkingEmissionOptions: 0
     - m_start_blinkingEmissionOptions1: 0
