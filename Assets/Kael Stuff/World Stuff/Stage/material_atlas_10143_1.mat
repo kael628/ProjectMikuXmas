@@ -335,7 +335,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Clip: 0.5
     - _ContinuousDissolve: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DebugCameraData: 0
     - _DebugDisplayDebug: 0
@@ -680,7 +680,7 @@ Material:
     - m_mainOptions: 1
     - m_outlineOptions: 0
     - m_reflectionOptions: 0
-    - m_renderingOptions: 0
+    - m_renderingOptions: 1
     - m_start_Alpha: 0
     - m_start_Anisotropic: 0
     - m_start_Anisotropic1: 0

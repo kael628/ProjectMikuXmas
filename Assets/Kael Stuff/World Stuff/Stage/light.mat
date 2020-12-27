@@ -648,8 +648,8 @@ Material:
     - m_end_specular1: 0
     - m_end_subsurface: 0
     - m_end_vertexManipulation: 0
-    - m_lightingOptions: 0
-    - m_mainOptions: 0
+    - m_lightingOptions: 1
+    - m_mainOptions: 1
     - m_reflectionOptions: 0
     - m_renderingOptions: 0
     - m_start_Alpha: 0
@@ -658,7 +658,7 @@ Material:
     - m_start_CenterOutEmission: 0
     - m_start_CenterOutEmission1: 0
     - m_start_DetailOptions: 0
-    - m_start_Lighting: 0
+    - m_start_Lighting: 1
     - m_start_Matcap2: 0
     - m_start_Metallic: 0
     - m_start_RGBMask: 0

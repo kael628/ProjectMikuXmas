@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: star
+  m_Name: combined_material_6754254753
   m_Shader: {fileID: 4800000, guid: 3ea1f79935b9bd049a40bf60dcf574ae, type: 3}
-  m_ShaderKeywords: LOD_FADE_CROSSFADE
+  m_ShaderKeywords: LOD_FADE_CROSSFADE TINTED_OUTLINE _ALPHATEST_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -56,6 +56,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClearCoatSmoothnessMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -160,7 +164,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e914820c8773eb64b8bc21aa3a04b65f, type: 3}
+        m_Texture: {fileID: 2800000, guid: bb7d0a4c2276117478d3f06f1c34aa87, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -328,7 +332,7 @@ Material:
     - _Clip: 0.5
     - _ContinuousDissolve: 0
     - _Cull: 0
-    - _Cutoff: 0.5
+    - _Cutoff: 0.22
     - _DebugCameraData: 0
     - _DebugDisplayDebug: 0
     - _DebugLightingData: 0
@@ -480,10 +484,11 @@ Material:
     - _MatcapReplace: 1
     - _Metallic: 0
     - _Mirror: 0
-    - _Mode: 0
+    - _Mode: 1
     - _ModelAngleMax: 90
     - _ModelAngleMin: 45
     - _OcclusionStrength: 1
+    - _OutlineMode: 1
     - _PanoBlend: 0
     - _PanoCubeMapToggle: 0
     - _PanoEmission: 0
@@ -531,6 +536,7 @@ Material:
     - _Saturation: 0
     - _ScrollingEmission: 0
     - _ScrollingEmission1: 0
+    - _Shadow: 0
     - _ShadowMix: 0
     - _ShadowMixThreshold: 0.5
     - _ShadowMixWidthMod: 0.5
@@ -585,6 +591,8 @@ Material:
     - _ZBias: 0
     - _ZTest: 4
     - _ZWrite: 1
+    - _outline_tint: 0.5
+    - _outline_width: 0
     - footer_discord: 0
     - footer_github: 0
     - footer_patreon: 0
@@ -648,8 +656,8 @@ Material:
     - m_end_specular1: 0
     - m_end_subsurface: 0
     - m_end_vertexManipulation: 0
-    - m_lightingOptions: 1
-    - m_mainOptions: 0
+    - m_lightingOptions: 0
+    - m_mainOptions: 1
     - m_reflectionOptions: 0
     - m_renderingOptions: 1
     - m_start_Alpha: 0
@@ -658,7 +666,7 @@ Material:
     - m_start_CenterOutEmission: 0
     - m_start_CenterOutEmission1: 0
     - m_start_DetailOptions: 0
-    - m_start_Lighting: 1
+    - m_start_Lighting: 0
     - m_start_Matcap2: 0
     - m_start_Metallic: 0
     - m_start_RGBMask: 0
@@ -688,7 +696,7 @@ Material:
     - m_start_glitterRandom: 0
     - m_start_glowInDarkEmissionOptions: 0
     - m_start_glowInDarkEmissionOptions1: 0
-    - m_start_lightingAdvanced: 1
+    - m_start_lightingAdvanced: 0
     - m_start_lightingBeta: 0
     - m_start_lightingStandard: 0
     - m_start_manualFlipbookControl: 0
@@ -699,7 +707,7 @@ Material:
     - m_start_parallaxHeightmap: 0
     - m_start_parallaxInternal: 0
     - m_start_pointToPoint: 0
-    - m_start_reflectionRim: 1
+    - m_start_reflectionRim: 0
     - m_start_rimLightOptions: 0
     - m_start_rimWidthNoise: 0
     - m_start_scrollingEmissionOptions: 0
@@ -784,3 +792,4 @@ Material:
     - _VertexManipulationLocalScale: {r: 1, g: 1, b: 1, a: 1}
     - _VertexManipulationLocalTranslation: {r: 0, g: 0, b: 0, a: 1}
     - _VertexManipulationWorldTranslation: {r: 0, g: 0, b: 0, a: 1}
+    - _outline_color: {r: 1, g: 1, b: 1, a: 1}
