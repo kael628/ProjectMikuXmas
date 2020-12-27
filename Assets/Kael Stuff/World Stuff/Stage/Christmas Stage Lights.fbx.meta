@@ -17,7 +17,42 @@ ModelImporter:
     2300000: Body
     3300000: Body
     4300000: Body
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light
+    second: {fileID: 2100000, guid: 0f551ae26c5afc448b935d06eafb710b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights
+    second: {fileID: 2100000, guid: 65a2facf1554f6949bc9341de3797a0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights.004
+    second: {fileID: 2100000, guid: d257316c7511b9c4895dc8760f93431e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights.005
+    second: {fileID: 2100000, guid: 366ad7bed7ad8fc4097ee1f04c30cd4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights.006
+    second: {fileID: 2100000, guid: fba63dd237ab2f54487aa19d20918227, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights.007
+    second: {fileID: 2100000, guid: 38d73dc32b4106344b5a19d9917a0fe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: star
+    second: {fileID: 2100000, guid: b8611e34472fe004e9034bbd7fcdbc0c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
